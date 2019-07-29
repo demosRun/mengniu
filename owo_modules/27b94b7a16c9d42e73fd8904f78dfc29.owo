@@ -1,0 +1,22 @@
+<template>
+  <aside>
+    <img height="44" src="{{prop.imgsrc}}">
+  </aside>
+</template>
+
+<style>
+aside {
+  height: 44px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 30px;
+  border-top: 6px solid #e02f00;
+}
+a, img {
+  display: inline-block;
+}
+img {
+  margin-top: -8px;
+}
+</style>

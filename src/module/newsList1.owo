@@ -1,0 +1,22 @@
+<template>
+  <div class="p2_content w980 mt30 o_h" style="display:block;">
+    <div class="foucs_a fl">
+      <div class="img_a">
+        <ol class="jCarouselLite">
+          <ul>
+            <li><a href="http://industry.people.com.cn/n1/2019/0110/c413883-30513773.html?tdsourcetag=s_pcqq_aiomsg&from=timeline&isappinstalled=0" target="_blank"><img src="http://health.people.com.cn/NMediaFile/2019/0117/MAIN201901171511381516278376548.jpg" width="540" height="310" border="0" alt="柳传志：坚守“科技产业化”争创“百年老店”"/></a><span><a href="http://industry.people.com.cn/n1/2019/0110/c413883-30513773.html?tdsourcetag=s_pcqq_aiomsg&from=timeline&isappinstalled=0" target="_blank">柳传志：坚守“科技产业化”争创“百年老店”</a></span></li>
+            <li><a href="http://jiu.people.cn/n1/2019/0103/c406324-30502221.html" target="_blank"><img src="http://health.people.com.cn/NMediaFile/2019/0105/MAIN201901051024227942457247981.jpg" width="540" height="310" border="0" alt="李永军：适应时代发展才能生存下来"/></a><span><a href="http://jiu.people.cn/n1/2019/0103/c406324-30502221.html" target="_blank">李永军：适应时代发展才能生存下来</a></span></li>
+            <li><a href="http://jiu.people.cn/n1/2018/1229/c406324-30495387.html" target="_blank"><img src="http://health.people.com.cn/NMediaFile/2019/0102/MAIN201901020952072609985554697.jpg" width="540" height="310" border="0" alt="李西廷：坚持科技创新 成功靠的是认真做技术"/></a><span><a href="http://jiu.people.cn/n1/2018/1229/c406324-30495387.html" target="_blank">李西廷：坚持科技创新 成功靠的是认真做技术</a></span></li>
+          </ul>
+        </ol>
+        <div class="prev prev01"></div>
+        <div class="next next01"></div>
+      </div>
+    </div>
+    <div class="p2_right fr">
+      <h2><a href='http://jiu.people.cn/n1/2019/0117/c406324-30562632.html' target="_blank">柳传志：改革开放让自己找到人生意义</a></h2><p class="one">2018年12月，庆祝改革开放40周年大会授予100名同志改革先锋称号，颁授改革先锋奖章，柳传志就是其中的一位。</p>
+      <h2><a href='http://jiu.people.cn/n1/2019/0103/c406324-30502221.html' target="_blank">李永军：适应时代发展才能生存下来</a></h2><p class="one">李永军指出，有一句话叫适者生存。企业能够经历几十年的考验，持续健康发展，无论政策如何变迁，都只有适合时代发展，才能生存下来。生存下来才有机会、才有机遇。“我们这一代人赶上了好时机。”</p>
+      <h2><a href='http://jiu.people.cn/n1/2018/1229/c406324-30495387.html' target="_blank">李西廷：坚持科技创新 成功靠的是认真做技术</a></h2><p class="one">作为迈瑞医疗创始人之一，现任迈瑞医疗董事长李西廷，是如何将一家以代理医疗器械为主的小贸易公司经营到全球领先的医疗器械与解决方案供应商呢？</p>
+    </div>
+  </div>
+</template>
