@@ -1,18 +1,24 @@
 <template lang="pug">
 .home
   img(src="@|bg.jpg|", class="main-img")
-  temple(name="newsList1", src="./src/module/newsList1.owo")
-  temple(name="newsList2", src="./src/module/newsList2.owo")
+  .box-1
+    temple(name="newsList1", src="./src/module/newsList1.owo")
+    temple(name="newsList2", src="./src/module/newsList2.owo")
+    temple(name="newsList3", src="./src/module/newsList3.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-1.png|", src="./src/module/titleBar.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-2.png|", src="./src/module/titleBar.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-3.png|", src="./src/module/titleBar.owo")
+  .w1000.box-4
+    temple(name="hudong", src="./src/module/hudong.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-4.png|", src="./src/module/titleBar.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-5.png|", src="./src/module/titleBar.owo")
+  .w1000.box-6
+    temple(name="cehua", src="./src/module/cehua.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-6.png|", src="./src/module/titleBar.owo")
 </template>
@@ -25,5 +31,11 @@
 }
 .main-img {
   width: 100%;
+}
+.box-1 {
+  margin-bottom: 100px;
+}
+.box-6, .box-4 {
+  margin-bottom: 140px;
 }
 </style>

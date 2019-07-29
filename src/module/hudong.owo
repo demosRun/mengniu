@@ -1,0 +1,110 @@
+<template>
+<div class="ueContent">
+  <div class="ueMobile">
+    <div class="ueSwiperBox" id="ueMobile">
+      <div class="swiper-wrapper" style="width: 292px; height: 2892px;">
+        <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 292px; height: 482px;">
+          <a href="http://en.people.cn/102775/414866/index.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0304/MAIN201903041023055885749235434.jpg" width="292" height="470" alt="" /></a>
+        </div>
+        <div class="swiper-slide" style="width: 292px; height: 482px;">
+          <a href="http://bbs1.people.com.cn/post/1/1/2/171242169.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0307/MAIN201903071032008878857085062.jpg" width="292" height="470" alt="" /></a>
+        </div>
+        <div class="swiper-slide" style="width: 292px; height: 482px;">
+          <a href="http://bbs1.people.com.cn/post/1/1/2/171188355.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0304/MAIN201903040832375854717340439.jpg" width="292" height="470" alt="" /></a>
+        </div>
+        <div class="swiper-slide" style="width: 292px; height: 482px;">
+          <a href="http://www.people.com.cn/32306/422743/425295/index.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0222/MAIN201902220824276872800038194.jpg" width="292" height="470" alt="" /></a>
+        </div>
+        <div class="swiper-slide" style="width: 292px; height: 482px;">
+          <a href="http://www.people.com.cn/32306/422743/index.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0304/MAIN201903040830116269470910888.jpg" width="292" height="470" alt="" /></a>
+        </div>
+        <div class="swiper-slide" style="width: 292px; height: 482px;">
+          <a href="http://www.people.com.cn/32306/425459/425620/index.html" target="_blank">
+            <img src="http://lianghui.people.com.cn/NMediaFile/2019/0307/MAIN201903071646406008556076374.jpg" width="292" height="470" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ueList">
+    <ul>
+      <li class="active">习近平的这些民生热词
+        <span></span></li>
+      <li>全息3D&quot;立体&quot;报告等你看
+        <span></span></li>
+      <li>&quot;拼&quot;了!90秒知网友期盼
+        <span></span></li>
+      <li>2019两会，预见未来
+        <span></span></li>
+      <li>我向政府工作报告献一策
+        <span></span></li>
+      <li>两会V观察：大V评两会
+        <span></span></li>
+    </ul>
+  </div>
+</div>
+</template>
+
+<style lang="less">
+.ueContent{
+    width: 1000px;
+    height: 575px;
+    position: relative;
+    background: url("http://lianghui.people.com.cn/img/2019lh/static/images/ue_bg.jpg") no-repeat 0;
+    .ueMobile{
+      width: 332px;
+      height: 524px;
+      overflow: hidden;
+      background: url("http://lianghui.people.com.cn/img/2019lh/static/images/mobile_bg.png") no-repeat;
+      padding:50px 0 0 0px;
+      position: absolute;
+      left:195px;
+      .ueSwiperBox{
+          width: 292px;
+          height: 482px;
+          overflow:hidden;
+          margin:0 auto;
+          .swiper-slide{
+              img{
+                  height: 482px;
+              }
+          }
+      }
+    }
+    .ueList{
+        position: absolute;
+        top:165px;
+        width: 295px;
+        right:30px;
+        ul{
+            li{
+                position: relative;
+                font-size: 24px;
+                color: #ff7e72;
+                padding:14px 0;
+                cursor: pointer;
+                span{
+                    display: inline-block;
+                    background: #ec3928;
+                    width: 27px;
+                    height: 27px;
+                    border-radius: 50%;
+                    position: absolute;
+                    right:0px;
+                    top:10px;
+                }
+            }
+            li.active{
+                color: #fff;
+                span{
+                    background: #ffbf35;
+                }
+            }
+        }
+    }
+}
+</style>

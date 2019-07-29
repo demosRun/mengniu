@@ -1,0 +1,36 @@
+<template>
+  <div class="p2_content w980 o_h">
+    <div class="foucs_a fl">
+      <div class="img_a">
+        <ul>
+          <li>
+            <a href="http://v.people.cn/n1/2019/0117/c358382-30563727.html" target="_blank">
+              <img src="http://health.people.com.cn/NMediaFile/2019/0117/MAIN201901171507279142645474872.jpg" width="540" height="310" border="0" alt="视频：致敬企业家精神|讲述董事长人生之专访柳传志" /></a>
+            <span>
+              <a href="http://v.people.cn/n1/2019/0117/c358382-30563727.html" target="_blank">视频：致敬企业家精神|讲述董事长人生之专访柳传志</a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="p2_right fr">
+      <h2>
+        <a href="http://shipin.people.com.cn/n1/2018/1024/c85914-30360432.html" target="_blank">改革开放40年百名杰出民营企业家名单发布
+          <br />浙商宗庆后有话说</a></h2>
+      <p>10月24日，全国工商联举行新闻发布会，发布由中央统战部、全国工商联共同推荐宣传的“改革开放40年百名杰出民营企业家”名单。会上，百名杰出民营企业家代表宗庆后、刘永好、陈东升回顾创业故事，畅谈感想体会。</p>
+      <ul class="list_14 lh_28">
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0815/c85914-30230400.html" target="_blank">一步一脚印 长存赤子心 记娃哈哈集团董事长兼总经理宗庆后</a></li>
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0816/c85914-30232823.html" target="_blank">娃哈哈集团董事长宗庆后：坚守实业强国信念</a></li>
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0730/c85914-30178501.html" target="_blank">宗庆后亮相好易购直播，娃哈哈新品羊奶粉健康上市</a></li>
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0508/c85914-29971069.html" target="_blank">宗庆后：时代的朗读者</a></li>
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0510/c85914-29976623.html" target="_blank">宗庆后：让中国品牌丰富人民美好生活</a></li>
+        <li>
+          <a href="http://shipin.people.com.cn/n1/2018/0514/c85914-29988245.html" target="_blank">宗庆后谈娃哈哈品牌价值：消费者的信任是最大财富</a></li>
+      </ul>
+    </div>
+  </div>
+</template>

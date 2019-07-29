@@ -1,4 +1,4 @@
-// Mon Jul 29 2019 17:02:37 GMT+0800 (GMT+08:00)
+// Tue Jul 30 2019 00:40:07 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -26,6 +26,9 @@ owo.script = {
       "newsList2": {
         "prop": {}
       },
+      "newsList3": {
+        "prop": {}
+      },
       "imgTitleBar": {
         "prop": {
           "imgsrc": "./static/resource/title-1.png"
@@ -41,6 +44,9 @@ owo.script = {
           "imgsrc": "./static/resource/title-3.png"
         }
       },
+      "hudong": {
+        "prop": {}
+      },
       "imgTitleBar3": {
         "prop": {
           "imgsrc": "./static/resource/title-4.png"
@@ -50,6 +56,9 @@ owo.script = {
         "prop": {
           "imgsrc": "./static/resource/title-5.png"
         }
+      },
+      "cehua": {
+        "prop": {}
       },
       "imgTitleBar5": {
         "prop": {

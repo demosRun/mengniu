@@ -1,0 +1,98 @@
+<template>
+  <div class="cehuaBox">
+    <div class="cehuaContent">
+      <span><a href="http://leaders.people.com.cn/GB/178291/218130/425460/index.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0228/MAIN201902281747434997214387008.jpg" alt=""></a></span>
+      <span><a href="http://health.people.com.cn/GB/425621/425622/index.html"><img src="http://lianghui.people.com.cn/img/2019lh/static/images/cehua3.jpg" alt=""></a></span>
+      <span><a href="http://media.people.com.cn/GB/22114/425331/index.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0304/MAIN201903041032395497620525037.jpg" alt=""></a></span>
+      <span><a href="http://v.people.cn/n1/2019/0308/c150725-30966046.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0306/MAIN201903061445281932606424864.jpg" alt=""></a></span>
+      <span><a href="http://opinion.people.com.cn/GB/8213/425730/index.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0307/MAIN201903071006597440860721936.jpg" alt=""></a></span>
+      <span><a href="http://bbs1.people.com.cn/post/1/1/2/171242169.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0307/MAIN201903071425061265013227460.jpg" alt=""></a></span>
+      <span><a href="http://www.people.com.cn/32306/425459/425620/"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0306/MAIN201903061641257338296428569.jpg" alt=""></a></span>
+      <span><a href="http://v.people.cn/GB/61600/425537/425572/425756/index.html"><img src="http://lianghui.people.com.cn/NMediaFile/2019/0315/MAIN201903150819524692527104565.jpg" alt=""></a></span>
+    </div>
+  </div>
+</template>
+
+<style lang="less">
+.cehuaBox{
+    width: 100%;
+    height: 465px;
+    padding-bottom:0;
+    .cehuaContent{
+        width: 1000px;
+        height: 450px;
+        position: relative;
+        span{
+            display: inline-block;
+            width: 200px;
+            height: 150px;
+            position: absolute;
+            cursor: pointer;
+        }
+        span:nth-child(1){
+            top:152px;
+            left:0px;
+        }
+        span:nth-child(2){
+            top:0px;
+            left:605px;
+        }
+        span:nth-child(3){
+            top:152px;
+            left:605px;
+        }
+        span:nth-child(4){
+            top:304px;
+            left:605px;
+        }
+        span:nth-child(5){
+            top:152px;
+            left:807px;
+        }
+        span:nth-child(6){
+            top:304px;
+            left:403px;
+        }
+        span:nth-child(7){
+            top:304px;
+            left:201px;
+        }
+        span:last-child{
+            top:0;
+            left:202px;
+        }
+        span.n1{
+            top:152px;
+            left:0px;
+        }
+        span.n2{
+            top:0px;
+            left:605px;
+        }
+        span.n3{
+            top:152px;
+            left:605px;
+        }
+        span.n4{
+            top:304px;
+            left:605px;
+        }
+        span.n5{
+            top:152px;
+            left:807px;
+        }
+        span.n6{
+            top:304px;
+            left:403px;
+        }
+        span.n7{
+            top:304px;
+            left:201px;
+        }
+        span.n8{
+            top:0;
+            left:202px;
+        }
+    }
+} 
+</style>

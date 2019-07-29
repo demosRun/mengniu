@@ -46,6 +46,7 @@ li {
 
 
 
+
 aside[template="imgTitleBar"] {
   height: 44px;
   text-align: center;
@@ -97,6 +98,67 @@ aside[template="imgTitleBar2"] {
 [template="imgTitleBar2"] img {
   margin-top: -8px;
 }
+.ueContent[template="hudong"] {
+  width: 1000px;
+  height: 575px;
+  position: relative;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/ue_bg.jpg") no-repeat 0;
+}
+
+.ueContent[template="hudong"] .ueMobile {
+  width: 332px;
+  height: 524px;
+  overflow: hidden;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/mobile_bg.png") no-repeat;
+  padding: 50px 0 0 0px;
+  position: absolute;
+  left: 195px;
+}
+
+.ueContent[template="hudong"] .ueMobile .ueSwiperBox {
+  width: 292px;
+  height: 482px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ueContent[template="hudong"] .ueMobile .ueSwiperBox .swiper-slide img {
+  height: 482px;
+}
+
+.ueContent[template="hudong"] .ueList {
+  position: absolute;
+  top: 165px;
+  width: 295px;
+  right: 30px;
+}
+
+.ueContent[template="hudong"] .ueList ul li {
+  position: relative;
+  font-size: 24px;
+  color: #ff7e72;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.ueContent[template="hudong"] .ueList ul li span {
+  display: inline-block;
+  background: #ec3928;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.ueContent[template="hudong"] .ueList ul li.active {
+  color: #fff;
+}
+
+.ueContent[template="hudong"] .ueList ul li.active span {
+  background: #ffbf35;
+}
 aside[template="imgTitleBar3"] {
   height: 44px;
   text-align: center;
@@ -131,6 +193,105 @@ aside[template="imgTitleBar4"] {
 [template="imgTitleBar4"] img {
   margin-top: -8px;
 }
+.cehuaBox[template="cehua"] {
+  width: 100%;
+  height: 465px;
+  padding-bottom: 0;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent {
+  width: 1000px;
+  height: 450px;
+  position: relative;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(1) {
+  top: 152px;
+  left: 0px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(2) {
+  top: 0px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(3) {
+  top: 152px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(4) {
+  top: 304px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(5) {
+  top: 152px;
+  left: 807px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(6) {
+  top: 304px;
+  left: 403px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:nth-child(7) {
+  top: 304px;
+  left: 201px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span:last-child {
+  top: 0;
+  left: 202px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n1 {
+  top: 152px;
+  left: 0px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n2 {
+  top: 0px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n3 {
+  top: 152px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n4 {
+  top: 304px;
+  left: 605px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n5 {
+  top: 152px;
+  left: 807px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n6 {
+  top: 304px;
+  left: 403px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n7 {
+  top: 304px;
+  left: 201px;
+}
+
+.cehuaBox[template="cehua"] .cehuaContent span.n8 {
+  top: 0;
+  left: 202px;
+}
 aside[template="imgTitleBar5"] {
   height: 44px;
   text-align: center;
@@ -155,4 +316,13 @@ aside[template="imgTitleBar5"] {
 
 [template="home"] .main-img {
   width: 100%;
+}
+
+[template="home"] .box-1 {
+  margin-bottom: 100px;
+}
+
+[template="home"] .box-6,
+[template="home"] .box-4 {
+  margin-bottom: 140px;
 }
