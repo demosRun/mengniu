@@ -64,6 +64,45 @@ aside[template="imgTitleBar"] {
 [template="imgTitleBar"] img {
   margin-top: -8px;
 }
+[template="showImg"] .main-box {
+  width: 1000px;
+  height: 590px;
+  margin-bottom: 40px;
+}
+
+[template="showImg"] .main-box img,
+[template="showImg"] .main-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+[template="showImg"] ul {
+  width: 1020px;
+  margin: 0 -10px;
+}
+
+[template="showImg"] ul li {
+  float: left;
+  width: 20%;
+  height: 120px;
+  cursor: pointer;
+}
+
+[template="showImg"] ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+[template="showImg"] ul li img {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  pointer-events: none;
+}
 aside[template="imgTitleBar1"] {
   height: 44px;
   text-align: center;

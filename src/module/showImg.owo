@@ -1,0 +1,80 @@
+<template lang="pug">
+.show-img
+  .main-box
+    //- 自动生成图片
+    img(src="", class="main-image")
+  ul.subsidiary-list.clear
+    li
+      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+    li
+      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+    li
+      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+    li
+      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+    li
+      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+</template>
+
+<script>
+module.exports = {
+  data: {
+  },
+  created: function () {
+    // 默认显示第一幅图
+    const main = this.query('.main-image')[0]
+    main.src = this.query('.subsidiary-list img')[0].src
+    this.query('.subsidiary-list li')[0].classList.add('active')
+    this.query('li').forEach(element => {
+      element.onclick = (e) => {
+        // 移除其它活跃标签
+        this.query('li').forEach(element => {
+          element.classList.remove('active')
+        })
+        e.target.classList.add('active')
+        if (e.target.src) {
+          main.src = e.target.src
+        } else {
+          main.src = e.target.getElementsByTagName('img')[0].src
+        }
+      }
+    })
+  }
+}
+</script>
+
+<style lang="less">
+.main-box {
+  width: 1000px;
+  height: 590px;
+  margin-bottom: 40px;
+  img, a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+ul {
+  width: 1020px;
+  margin: 0 -10px;
+  li {
+    float: left;
+    width: 20%;
+    height: 120px;
+    cursor: pointer;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    img {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+      display: block;
+      pointer-events: none;
+    }
+  }
+}
+</style>

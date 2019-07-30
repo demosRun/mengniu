@@ -7,6 +7,8 @@
     temple(name="newsList3", src="./src/module/newsList3.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-1.png|", src="./src/module/titleBar.owo")
+  .w1000.box-6
+    temple(name="showImg", src="./src/module/showImg.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-2.png|", src="./src/module/titleBar.owo")
   .w1000.box-6

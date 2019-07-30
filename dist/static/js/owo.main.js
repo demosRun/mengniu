@@ -1,4 +1,4 @@
-// Wed Jul 31 2019 00:56:14 GMT+0800 (GMT+08:00)
+// Wed Jul 31 2019 01:29:18 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -33,6 +33,33 @@ owo.script = {
         "prop": {
           "imgsrc": "./static/resource/title-1.png"
         }
+      },
+      "showImg": {
+        "created": function created() {
+          var _this = this;
+
+          // 默认显示第一幅图
+          var main = this.query('.main-image')[0];
+          main.src = this.query('.subsidiary-list img')[0].src;
+          this.query('.subsidiary-list li')[0].classList.add('active');
+          this.query('li').forEach(function (element) {
+            element.onclick = function (e) {
+              // 移除其它活跃标签
+              _this.query('li').forEach(function (element) {
+                element.classList.remove('active');
+              });
+
+              e.target.classList.add('active');
+
+              if (e.target.src) {
+                main.src = e.target.src;
+              } else {
+                main.src = e.target.getElementsByTagName('img')[0].src;
+              }
+            };
+          });
+        },
+        "prop": {}
       },
       "imgTitleBar1": {
         "prop": {
