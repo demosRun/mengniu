@@ -1,4 +1,4 @@
-// Tue Jul 30 2019 10:39:15 GMT+0800 (GMT+08:00)
+// Wed Jul 31 2019 00:56:14 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -39,6 +39,28 @@ owo.script = {
           "imgsrc": "./static/resource/title-2.png"
         }
       },
+      "video": {
+        "data": {
+          "mySwiper": null
+        },
+        "created": function created() {
+          this.data.mySwiper = new Swiper(this.query('.video-list')[0], {
+            autoplay: 6000,
+            loop: true,
+            // 禁用鼠标点击
+            simulateTouch: false,
+            onlyExternal: true,
+            slidesPerView: 3
+          });
+        },
+        "last": function last() {
+          this.data.mySwiper.swipePrev();
+        },
+        "next": function next() {
+          this.data.mySwiper.swipeNext();
+        },
+        "prop": {}
+      },
       "imgTitleBar2": {
         "prop": {
           "imgsrc": "./static/resource/title-3.png"
@@ -53,8 +75,11 @@ owo.script = {
         }
       },
       "people": {
+        "data": {
+          "mySwiper": null
+        },
         "created": function created() {
-          new Swiper('.kelunSubBox', {
+          this.data.mySwiper = new Swiper('.kelunSubBox', {
             autoplay: 6000,
             loop: true,
             // 禁用鼠标点击
@@ -62,6 +87,12 @@ owo.script = {
             onlyExternal: true,
             slidesPerView: 3
           });
+        },
+        "last": function last() {
+          this.data.mySwiper.swipePrev();
+        },
+        "next": function next() {
+          this.data.mySwiper.swipeNext();
         },
         "prop": {}
       },
