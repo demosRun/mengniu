@@ -1,0 +1,55 @@
+<template>
+<div class="p7_con clearfix w980">
+  <ul>
+    <li>
+      <img src="http://consume.people.com.cn/NMediaFile/2019/0327/MAIN201903271530540382068969144.jpg" width="487" height="276" /></li>
+    <li>
+      <img src="http://consume.people.com.cn/NMediaFile/2019/0328/MAIN201903281127407198026275512.jpg" width="487" height="276" /></li>
+    <li>
+      <img src="http://consume.people.com.cn/NMediaFile/2019/0328/MAIN201903281127405276448203121.jpg" width="487" height="276" /></li>
+    <li>
+      <img src="http://consume.people.com.cn/NMediaFile/2019/0328/MAIN201903281127403728646218204.jpg" width="487" height="276" /></li>
+    <li>
+      <img src="http://consume.people.com.cn/NMediaFile/2019/0328/MAIN201903281127402504831020794.jpg" width="487" height="276" /></li>
+  </ul>
+</div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    $('.p7_con ul').roundabout({
+      easing: 'easeOutInCirc',
+      duration: 600,
+      minOpacity: 0.5
+    })
+  }
+}
+</script>
+
+
+
+
+<style>
+.p7_con{ width:980px; height:376px; overflow:hidden;position:relative; }
+.p7_con ul{ position:absolute; width:800px; height:380px; top:0; left:30px;}
+.p7_con ul li{ width:487px; height:286px; text-align:center;}
+.roundabout-holder{width:600px;height:500px;margin:0px auto; }
+.roundabout-moveable-item{height:369px;width:900px;cursor:pointer; }
+.roundabout-moveable-item span{display:none;}
+.roundabout-moveable-item img{
+  height:100%;width:100%;
+ -webkit-box-shadow: 5px 5px 15px #aaaaaa;
+  box-shadow: 5px 5px 15px #aaaaaa;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa)";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+}
+.roundabout-in-focus span{position:absolute;width:380px;height:45px;bottom:-45px;left:0;display:block;color:#000;font-size:16px;line-height:45px; text-align:center;}
+.roundabout-in-focus em{background:#000;filter:alpha(opacity=50);opacity:.5;position:absolute;width:380px;height:54px;bottom:-45px;left:0;}
+.roundabout-in-focus{border:0px solid #a4bdd3;}
+.p7_con .next2{background:url(images/right_c1.gif) no-repeat;width:28px;height:165px;z-index:9999;position:absolute;top:0px;right:0px;cursor:pointer;}
+.p7_con .prev2{ background:url(images/left_c1.gif) no-repeat;width:28px;height:165px;z-index:9999;position:absolute;top:0px;left:0px;cursor:pointer; display:block}
+.p7_con ul li .roundabout-moveable-item{ border:1px solid #0F0}
+</style>

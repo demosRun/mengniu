@@ -94,13 +94,21 @@ module.exports = {
       name: "jquery1.11.0",
       src: "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
     },
-    // {
-    //   name: "idangerous.swiper.min",
-    //   src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
-    // },
+    {
+      name: "idangerous.swiper.min",
+      src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"
+    },
     {
       name: "jcarousellite",
       src: "http://health.people.com.cn/img/MAIN/2014/06/114601/js/jcarousellite.js"
+    },
+    {
+      name: "roundabout",
+      src: "http://consume.people.com.cn/img/MAIN/2019/03/119155/js/roundabout.js"
+    },
+    {
+      name: "jquery.easing.1.3",
+      src: "./src/resource/jquery.easing.1.3.js"
     },
     {
       name: "main",
@@ -114,10 +122,10 @@ module.exports = {
       src: "./src/main.css",
       resource: true
     },
-    // {
-    //   name: "idangerous.swiper",
-    //   src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css"
-    // },
+    {
+      name: "idangerous.swiper",
+      src: "http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css"
+    },
   ],
   // 页面清单
   pageList: [

@@ -1,0 +1,529 @@
+<template>
+<div class="kelunBox">
+  <div class="kelunSubBox" id="kelunSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16919" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0316/MAIN201903161019417992615757856.png" width="276" height="237" alt="国家市场监管总局局长张茅 食品安全，特别是校园食品安全，关系重大，不能有丝毫的闪失，涉及到每个家庭，所以，校园食品安全是我们整个食品安全工作中的重中之重。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16919" target="_blank">
+              <b>国家市场监管总局局长张茅</b>
+              <p>食品安全，特别是校园食品安全，关系重大，不能有丝毫的闪失，涉及到每个家庭，所以，校园食品安全是我们整个食品安全工作中的重中之重。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16907" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0313/MAIN201903131622546961095835229.png" width="276" height="237" alt="湖南省政协副主席张健 随着国家这么重视民营经济的发展，对民营经济毫不动摇地鼓励、支持、引导，又有实际的手段和行动，当然能极大地提振民营企业的信心，使他们更加安心发展。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16907" target="_blank">
+              <b>湖南省政协副主席张健</b>
+              <p>随着国家这么重视民营经济的发展，对民营经济毫不动摇地鼓励、支持、引导，又有实际的手段和行动，当然能极大地提振民营企业的信心，使他们更加安心发展。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16900" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0315/MAIN201903151639083878784417656.png" width="276" height="237" alt="西安交通大学校长王树国&#13;21世纪，大学应该打开围墙，主动面向社会，真正助力经济社会的发展，要和社会融为一体，这是全球的大学都应该认真思考的问题。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16900" target="_blank">
+              <b>西安交通大学校长王树国</b>
+              <p>21世纪，大学应该打开围墙，主动面向社会，真正助力经济社会的发展，要和社会融为一体，这是全球的大学都应该认真思考的问题。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16918" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0315/MAIN201903150845444307157834461.png" width="276" height="237" alt="西藏自治区主席齐扎拉&#13;60年沧桑巨变，西藏山美、水美，实际上是西藏各族人民内心里的美。脸上的笑容，可以代表我们国家治藏方略的成功，可以代表新时代西藏人民的心声。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16918" target="_blank">
+              <b>西藏自治区主席齐扎拉</b>
+              <p>60年沧桑巨变，西藏山美、水美，实际上是西藏各族人民内心里的美。脸上的笑容，可以代表我们国家治藏方略的成功，可以代表新时代西藏人民的心声。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://tyzx.people.cn/n1/2019/0315/c383843-30977356.html" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0315/MAIN201903150944137171664225615.png" width="276" height="237" alt="民革中央副主席刘家强&#13;作为新时代中国特色社会主义参政党，民革在促进两岸交流、发展爱国统一战线方面始终发挥着积极作用。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://tyzx.people.cn/n1/2019/0315/c383843-30977356.html" target="_blank">
+              <b>民革中央副主席刘家强</b>
+              <p>作为新时代中国特色社会主义参政党，民革在促进两岸交流、发展爱国统一战线方面始终发挥着积极作用。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://sx.people.com.cn/GB/199333/391321/index.html?from=singlemessage&isappinstalled=0" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0314/MAIN201903141613250870028944198.png" width="276" height="237" alt="中国工程院院士、太原理工大学校长黄庆学&#13;通过夯实基础、强化专业特色和实施创新创业三方面共同推进，太原理工大学的学生培养质量实现了有效提升。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://sx.people.com.cn/GB/199333/391321/index.html?from=singlemessage&isappinstalled=0" target="_blank">
+              <b>中国工程院院士、太原理工大学校长黄庆学</b>
+              <p>通过夯实基础、强化专业特色和实施创新创业三方面共同推进，太原理工大学的学生培养质量实现了有效提升。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16916" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0314/MAIN201903141459015568657940199.png" width="276" height="237" alt="贵州省委书记孙志刚&#13;抓具体抓深入是形式主义、官僚主义的克星。一具体就深入，就能发现问题，进而破解难题，推动工作前进。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16916" target="_blank">
+              <b>贵州省委书记孙志刚</b>
+              <p>抓具体抓深入是形式主义、官僚主义的克星。一具体就深入，就能发现问题，进而破解难题，推动工作前进。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16889" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0314/MAIN201903140849444012711911516.png" width="276" height="237" alt="科技部副部长、国家外国专家局局长张建国&#13;科技发展成就的取得，是我国广大科技人员无私奉献和顽强拼搏的结果，同时也离不开创新能力的开放合作。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16889" target="_blank">
+              <b>科技部副部长、国家外国专家局局长张建国</b>
+              <p>科技发展成就的取得，是我国广大科技人员无私奉献和顽强拼搏的结果，同时也离不开创新能力的开放合作。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ah.people.com.cn/GB/227122/391244/391364/index.html" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0314/MAIN201903140926508695356480614.png" width="276" height="237" alt="安徽省高级人民法院院长董开军&#13;我们要加快向“切实解决执行难”进军步伐，力争在江淮大地上先行一步，早日让执行不再难。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ah.people.com.cn/GB/227122/391244/391364/index.html" target="_blank">
+              <b>安徽省高级人民法院院长董开军</b>
+              <p>我们要加快向“切实解决执行难”进军步伐，力争在江淮大地上先行一步，早日让执行不再难。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16908" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0313/MAIN201903131625482972229094514.png" width="276" height="237" alt="中国工程院副院长钟志华&#13;通过创新创业教育内涵的丰富，能够促进我们现代高等教育人才培养的改革，使人才更好地满足社会需求，尤其是对创新创业创造的需求。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16908" target="_blank">
+              <b>中国工程院副院长钟志华</b>
+              <p>通过创新创业教育内涵的丰富，能够促进我们现代高等教育人才培养的改革，使人才更好地满足社会需求，尤其是对创新创业创造的需求。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16870" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0313/MAIN201903131102239871621913884.png" width="276" height="237" alt="中国工程院院士、广东省科协副主席吴清平&#13;做科研的人必须有底线有原则。你所从事的科研职业，底线是任何人都不能突破的。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16870" target="_blank">
+              <b>中国工程院院士、广东省科协副主席吴清平</b>
+              <p>做科研的人必须有底线有原则。你所从事的科研职业，底线是任何人都不能突破的。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16869" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0313/MAIN201903131102084523751802493.png" width="276" height="237" alt="全国工商联副主席、TCL集团股份有限公司董事长李东生&#13;这几年政府的观念转换得特别有成效，现在企业经营更多的是要面对市场，政府是真正发挥一个支持者的作用。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16869" target="_blank">
+              <b>全国工商联副主席、TCL集团股份有限公司董事长李东生</b>
+              <p>这几年政府的观念转换得特别有成效，现在企业经营更多的是要面对市场，政府是真正发挥一个支持者的作用。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16903" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0313/MAIN201903130858133223541815428.png" width="276" height="237" alt="广东省省长马兴瑞 &#13;广东坚持把发展经济着力点放在以制造业为主体的实体经济上，以构建现代产业体系为重点，着力深化供给侧结构性改革，推动产业转型升级。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16903" target="_blank">
+              <b>广东省省长马兴瑞</b>
+              <p>广东坚持把发展经济着力点放在以制造业为主体的实体经济上，以构建现代产业体系为重点，着力深化供给侧结构性改革，推动产业转型升级。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16878" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0312/MAIN201903120911580989463246736.png" width="276" height="237" alt="保利党委书记、董事长徐念沙&#13;只有解放思想、勇于担当，才能实现混改的初衷，让不同所有制的优势在国企混合所有制中得到实现和体现。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16878" target="_blank">
+              <b>保利党委书记、董事长徐念沙</b>
+              <p>只有解放思想、勇于担当，才能实现混改的初衷，让不同所有制的优势在国企混合所有制中得到实现和体现。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16877" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0312/MAIN201903120911380199557652838.png" width="276" height="237" alt="北汽党委书记、董事长徐和谊&#13;力争在2025年，把北汽新能源建设成全国第一、全球前三的世界级新能源汽车企业。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16877" target="_blank">
+              <b>北汽党委书记、董事长徐和谊</b>
+              <p>力争在2025年，把北汽新能源建设成全国第一、全球前三的世界级新能源汽车企业。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16879" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0312/MAIN201903120911171968537275913.png" width="276" height="237" alt="国投党组书记、董事长王会生&#13;为美好生活补短板，为新兴产业做导向，把握好命脉和民生两个发展方向，更好地服务于国家战略。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16879" target="_blank">
+              <b>国投党组书记、董事长王会生</b>
+              <p>为美好生活补短板，为新兴产业做导向，把握好命脉和民生两个发展方向，更好地服务于国家战略。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16892" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0311/MAIN201903111509282651561610704.png" width="276" height="237" alt="民进中央副主席、上海交通大学副校长黄震&#13;上海交大不光要把人才引进来，把人才培养好，把他留住，还要把他用好。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16892" target="_blank">
+              <b>民进中央副主席、上海交通大学副校长黄震</b>
+              <p>上海交大不光要把人才引进来，把人才培养好，把他留住，还要把他用好。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16858" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0311/MAIN201903111507156112035037753.png" width="276" height="237" alt="湖北省人大常委会副主任周洪宇&#13;为了让学生的负担减得更好，有必要对教师减负。教师的减负，也是现在应当要重视、要开展的的一件事情。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16858" target="_blank">
+              <b>湖北省人大常委会副主任周洪宇</b>
+              <p>为了让学生的负担减得更好，有必要对教师减负。教师的减负，也是现在应当要重视、要开展的的一件事情。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16880&tdsourcetag=s_pcqq_aiomsg" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0311/MAIN201903111121049989959086702.png" width="276" height="237" alt="最高人民检察院党组副书记、副检察长邱学强&#13;金融安全是国家安全的重要内容，防范化解金融风险也是打好三大攻坚战的重中之重。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16880&tdsourcetag=s_pcqq_aiomsg" target="_blank">
+              <b>最高人民检察院党组副书记、副检察长邱学强</b>
+              <p>金融安全是国家安全的重要内容，防范化解金融风险也是打好三大攻坚战的重中之重。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16881" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0310/MAIN201903101145433057212830451.png" width="276" height="237" alt="民族和宗教委员会副主任罗黎明&#13;乡村振兴是在脱贫攻坚的基础上来推进的，而以乡村振兴又可以反过来带动和助推脱贫攻坚。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16881" target="_blank">
+              <b>民族和宗教委员会副主任罗黎明</b>
+              <p>乡村振兴是在脱贫攻坚的基础上来推进的，而以乡村振兴又可以反过来带动和助推脱贫攻坚。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16876" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0309/MAIN201903091153263326513592831.png" width="276" height="237" alt="特级航天员杨利伟&#13;在国旗下宣誓，把你的名字很庄严的写在国旗上的时候，在这一刻，实际上就等于你选择了一份担当或者选择了一份责任。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16876" target="_blank">
+              <b>特级航天员杨利伟</b>
+              <p>在国旗下宣誓，把你的名字很庄严的写在国旗上的时候，在这一刻，实际上就等于你选择了一份担当或者选择了一份责任。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16865" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0308/MAIN201903081054311095019668555.png" width="276" height="237" alt="香港中华总商会会长蔡冠深香港的年轻人机会也非常多。我觉得，香港的年轻人一定抓住这个机遇，很好地和深圳，和广州的科技走廊结合在一起。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16865" target="_blank">
+              <b>香港中华总商会会长蔡冠深</b>
+              <p>香港的年轻人机会也非常多。我觉得，香港的年轻人一定抓住这个机遇，很好地和深圳，和广州的科技走廊结合在一起。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16866" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0308/MAIN201903081034495703261132224.png" width="276" height="237" alt="山东大学校长樊丽明怎么建设好双一流，我们的思路就是，第一个就是抓好一流的人才培养，着力提升学生的综合素质和创新能力。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16866" target="_blank">
+              <b>山东大学校长樊丽明</b>
+              <p>怎么建设好双一流，我们的思路就是，第一个就是抓好一流的人才培养，着力提升学生的综合素质和创新能力。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16860" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0307/MAIN201903071637564852777062710.png" width="276" height="237" alt="国务院发展研究中心副主任王一鸣我对报告最深的感受可以用九个字来概括。第一是“接地气”，第二是“暖人心”，第三是“鼓干劲”。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16860" target="_blank">
+              <b>国务院发展研究中心副主任王一鸣</b>
+              <p>我对报告最深的感受可以用九个字来概括。第一是“接地气”，第二是“暖人心”，第三是“鼓干劲”。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16861" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0306/MAIN201903061416058915516421026.png" width="276" height="237" alt="上海交通大学校长、中国工程院院士林忠钦重视就业引导工作是一件非常重要的工作，年轻人不满足安逸的生活，鼓励他们立志争取成为国家和社会的栋梁。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16861" target="_blank">
+              <b>上海交通大学校长、中国工程院院士林忠钦</b>
+              <p>重视就业引导工作是一件非常重要的工作，年轻人不满足安逸的生活，鼓励他们立志争取成为国家和社会的栋梁。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16867" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0305/MAIN201903050900083464834788650.png" width="276" height="237" alt="江苏省政协副主席、南京师范大学副校长朱晓进要让生态文明成为全民的一种信仰！信仰为人生观导航。以生态文明为信仰，可以塑造新时代健康向上的积极的人生观。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16867" target="_blank">
+              <b>江苏省政协副主席、南京师范大学副校长朱晓进</b>
+              <p>要让生态文明成为全民的一种信仰！信仰为人生观导航。以生态文明为信仰，可以塑造新时代健康向上的积极的人生观。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16857" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0305/MAIN201903050814471180287689072.png" width="276" height="237" alt="民进中央副主席朱永新未来机器人、人工智能会在教育中发挥越来越大的作用，但真正优秀的教师是机器人无法取代的。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16857" target="_blank">
+              <b>民进中央副主席朱永新</b>
+              <p>未来机器人、人工智能会在教育中发挥越来越大的作用，但真正优秀的教师是机器人无法取代的。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16852" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0304/MAIN201903040918254559183013255.png" width="276" height="237" alt="全国人大农业与农村委员会主任委员陈锡文党的十九大报告中正式提出实施乡村振兴战略，并且将其写入了党章的修正案，意义非常重大。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16852" target="_blank">
+              <b>全国人大农业与农村委员会主任委员陈锡文</b>
+              <p>党的十九大报告中正式提出实施乡村振兴战略，并且将其写入了党章的修正案，意义非常重大。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16854" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0301/MAIN201903011004357584004257083.png" width="276" height="237" alt="全国人大常委会副委员长、民进中央主席蔡达峰民进中央将如何聚焦脱贫攻坚民主监督工作？一是确保脱贫任务目标实现；二是深入到贫困户了解情况并提出意见建议。" /></a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16854" target="_blank">
+              <b>全国人大常委会副委员长、民进中央主席蔡达峰</b>
+              <p>民进中央将如何聚焦脱贫攻坚民主监督工作？一是确保脱贫任务目标实现；二是深入到贫困户了解情况并提出意见建议。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="klContent">
+          <span>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16849" target="_blank">
+              <img src="http://lianghui.people.com.cn/NMediaFile/2019/0301/MAIN201903011047460474415607853.png" width="276" height="237" alt="中国社会科学院学部委员、农村发展研究所研究员张晓山&#13;未来全面深化农村改革，仍要以土地制度改革为牵引，深入推进新一轮的农村改革。" />
+            </a>
+          </span>
+          <div>
+            <a href="http://ft.people.com.cn/fangtanDetail.do?pid=16849" target="_blank">
+              <b>中国社会科学院学部委员、农村发展研究所研究员张晓山</b>
+              <p>未来全面深化农村改革，仍要以土地制度改革为牵引，深入推进新一轮的农村改革。</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="kelunLeft"></span>
+  <span class="kelunRight"></span>
+</div>
+</template>
+
+<script>
+module.exports = {
+  created: function () {
+    new Swiper('.kelunSubBox', {
+      autoplay: 6000,
+      loop: true,
+      // 禁用鼠标点击
+      simulateTouch: false,
+      onlyExternal: true,
+      slidesPerView: 3,
+    })
+  }
+}
+</script>
+
+<style lang="less">
+.kelunBox {
+  width: 1000px;
+  height: 405px;
+  position: relative;
+  .kelunSubBox{
+    width: 1000px;
+    height: 405px;
+    overflow: hidden;
+    .swiper-slide {
+      width: 33.3%;
+    }
+    .klContent{
+      width: 310px;
+      height: 405px;
+      background: #c00911;
+      span{
+          display: inline-block;
+          width: 100%;
+          height: 230px;
+          overflow: hidden;
+          text-align: center;
+          padding-top:5px;
+          background: url('@|people.jpg|') no-repeat bottom #fff;
+      }
+      div {
+        padding:25px;
+        b {
+          font-size:18px;
+          color: #fff;
+        }
+        p {
+          font-size: 14px;
+          color: #ffe4b9;
+          line-height: 190%;
+        }
+      }
+    }
+  }
+}
+.kelunLeft{
+  display: inline-block;
+  width: 34px;
+  height: 59px;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/left_b.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:-30px;
+  cursor: pointer;
+  top:45%;
+}
+.kelunRight{
+  display: inline-block;
+  width: 34px;
+  height: 59px;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/right_b.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right:-30px;
+  top:45%;
+  cursor: pointer;
+}
+</style>

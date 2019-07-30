@@ -34,9 +34,6 @@ a {
   display: block;
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
 
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
   margin:0;
@@ -59,7 +56,7 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 a:hover {
   color: #e60012;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* 复制来的样式 */

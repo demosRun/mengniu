@@ -176,6 +176,76 @@ aside[template="imgTitleBar3"] {
 [template="imgTitleBar3"] img {
   margin-top: -8px;
 }
+.kelunBox[template="people"] {
+  width: 1000px;
+  height: 405px;
+  position: relative;
+}
+
+.kelunBox[template="people"] .kelunSubBox {
+  width: 1000px;
+  height: 405px;
+  overflow: hidden;
+}
+
+.kelunBox[template="people"] .kelunSubBox .swiper-slide {
+  width: 33.3%;
+}
+
+.kelunBox[template="people"] .kelunSubBox .klContent {
+  width: 310px;
+  height: 405px;
+  background: #c00911;
+}
+
+.kelunBox[template="people"] .kelunSubBox .klContent span {
+  display: inline-block;
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 5px;
+  background: url('../../static/resource/people.jpg') no-repeat bottom #fff;
+}
+
+.kelunBox[template="people"] .kelunSubBox .klContent div {
+  padding: 25px;
+}
+
+.kelunBox[template="people"] .kelunSubBox .klContent div b {
+  font-size: 18px;
+  color: #fff;
+}
+
+.kelunBox[template="people"] .kelunSubBox .klContent div p {
+  font-size: 14px;
+  color: #ffe4b9;
+  line-height: 190%;
+}
+
+[template="people"] .kelunLeft {
+  display: inline-block;
+  width: 34px;
+  height: 59px;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/left_b.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: -30px;
+  cursor: pointer;
+  top: 45%;
+}
+
+[template="people"] .kelunRight {
+  display: inline-block;
+  width: 34px;
+  height: 59px;
+  background: url("http://lianghui.people.com.cn/img/2019lh/static/images/right_b.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: -30px;
+  top: 45%;
+  cursor: pointer;
+}
 aside[template="imgTitleBar4"] {
   height: 44px;
   text-align: center;
@@ -308,6 +378,107 @@ aside[template="imgTitleBar5"] {
 
 [template="imgTitleBar5"] img {
   margin-top: -8px;
+}
+.p7_con[template="swiper"] {
+  width: 980px;
+  height: 376px;
+  overflow: hidden;
+  position: relative;
+}
+
+.p7_con[template="swiper"] ul {
+  position: absolute;
+  width: 800px;
+  height: 380px;
+  top: 0;
+  left: 30px;
+}
+
+.p7_con[template="swiper"] ul li {
+  width: 487px;
+  height: 286px;
+  text-align: center;
+}
+
+[template="swiper"] .roundabout-holder {
+  width: 600px;
+  height: 500px;
+  margin: 0px auto;
+}
+
+[template="swiper"] .roundabout-moveable-item {
+  height: 369px;
+  width: 900px;
+  cursor: pointer;
+}
+
+[template="swiper"] .roundabout-moveable-item span {
+  display: none;
+}
+
+[template="swiper"] .roundabout-moveable-item img {
+  height: 100%;
+  width: 100%;
+  box-shadow: 5px 5px 15px #aaaaaa;
+  /* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa)";
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+}
+
+[template="swiper"] .roundabout-in-focus span {
+  position: absolute;
+  width: 380px;
+  height: 45px;
+  bottom: -45px;
+  left: 0;
+  display: block;
+  color: #000;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+}
+
+[template="swiper"] .roundabout-in-focus em {
+  background: #000;
+  filter: alpha(opacity=50);
+  opacity: .5;
+  position: absolute;
+  width: 380px;
+  height: 54px;
+  bottom: -45px;
+  left: 0;
+}
+
+[template="swiper"] .roundabout-in-focus {
+  border: 0px solid #a4bdd3;
+}
+
+.p7_con[template="swiper"] .next2 {
+  background: url(images/right_c1.gif) no-repeat;
+  width: 28px;
+  height: 165px;
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.p7_con[template="swiper"] .prev2 {
+  background: url(images/left_c1.gif) no-repeat;
+  width: 28px;
+  height: 165px;
+  z-index: 9999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  display: block;
+}
+
+.p7_con[template="swiper"] ul li .roundabout-moveable-item {
+  border: 1px solid #0F0;
 }
 [template="home"] .w1000 {
   width: 1000px;

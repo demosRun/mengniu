@@ -1,4 +1,4 @@
-// Tue Jul 30 2019 00:40:07 GMT+0800 (GMT+08:00)
+// Tue Jul 30 2019 10:39:15 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -52,6 +52,19 @@ owo.script = {
           "imgsrc": "./static/resource/title-4.png"
         }
       },
+      "people": {
+        "created": function created() {
+          new Swiper('.kelunSubBox', {
+            autoplay: 6000,
+            loop: true,
+            // 禁用鼠标点击
+            simulateTouch: false,
+            onlyExternal: true,
+            slidesPerView: 3
+          });
+        },
+        "prop": {}
+      },
       "imgTitleBar4": {
         "prop": {
           "imgsrc": "./static/resource/title-5.png"
@@ -64,6 +77,16 @@ owo.script = {
         "prop": {
           "imgsrc": "./static/resource/title-6.png"
         }
+      },
+      "swiper": {
+        "created": function created() {
+          $('.p7_con ul').roundabout({
+            easing: 'easeOutInCirc',
+            duration: 600,
+            minOpacity: 0.5
+          });
+        },
+        "prop": {}
       }
     }
   }

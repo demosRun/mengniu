@@ -15,12 +15,15 @@
     temple(name="hudong", src="./src/module/hudong.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-4.png|", src="./src/module/titleBar.owo")
+  .w1000.box-5
+    temple(name="people", src="./src/module/people.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-5.png|", src="./src/module/titleBar.owo")
   .w1000.box-6
     temple(name="cehua", src="./src/module/cehua.owo")
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-6.png|", src="./src/module/titleBar.owo")
+  temple(name="swiper", src="./src/module/swiper.owo")
 </template>
 
 
