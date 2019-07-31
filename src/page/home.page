@@ -34,7 +34,7 @@
 </template>
 
 
-<style lang="less">
+<style lang="less" original>
 .w1000 {
   width: 1000px;
   margin: 0 auto;

@@ -674,25 +674,25 @@ aside[template="imgTitleBar5"] {
 .p7_con[template="swiper"] ul li .roundabout-moveable-item {
   border: 1px solid #0F0;
 }
-[template="home"] .w1000 {
+.w1000 {
   width: 1000px;
   margin: 0 auto;
 }
 
-[template="home"] .main-img {
+.main-img {
   width: 100%;
 }
 
-[template="home"] .box-1 {
+.box-1 {
   margin-bottom: 100px;
 }
 
-[template="home"] .box-6,
-[template="home"] .box-4 {
+.box-6,
+.box-4 {
   margin-bottom: 140px;
 }
 
-[template="home"] footer p.mt30 {
+footer p.mt30 {
   margin-top: 30px;
   position: relative;
   line-height: 200%;
@@ -700,13 +700,13 @@ aside[template="imgTitleBar5"] {
   margin-bottom: 60px;
 }
 
-[template="home"] footer p.mt30 span#beian {
+footer p.mt30 span#beian {
   position: absolute;
   right: 220px;
   top: 0px;
 }
 
-[template="home"] footer p.mt30 span#kxwz {
+footer p.mt30 span#kxwz {
   position: absolute;
   right: 80px;
   top: 0px;
