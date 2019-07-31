@@ -181,24 +181,93 @@
       <div class="show-img" template="showImg">
         <div class="main-box">
           <img class="main-image" src="">
+          <div class="info-text"></div>
         </div>
-        <ul class="subsidiary-list clear">
-          <li>
-            <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg" width="1000" height="590">
-          </li>
-          <li>
-            <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg" width="1000" height="590">
-          </li>
-          <li>
-            <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg" width="1000" height="590">
-          </li>
-          <li>
-            <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg" width="1000" height="590">
-          </li>
-          <li>
-            <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg" width="1000" height="590">
-          </li>
-        </ul>
+        <ul class="subsidiary-list clear"></ul>
+        <div class="bar-list clear">
+          <div class="bar" ind="0" :click="changeBar"></div>
+          <div class="bar" ind="1" :click="changeBar"></div>
+          <div class="bar" ind="2" :click="changeBar"></div>
+          <div class="bar" ind="3" :click="changeBar"></div>
+          <div class="text1999 text">1999年</div>
+          <div class="text2004 text">2004年</div>
+          <div class="text2009 text">2009年</div>
+          <div class="text2014 text">2014年</div>
+          <div class="text2019 text">2019年</div>
+        </div>
+        <div class="subsidiary-box">
+          <div class="subsidiary-item">
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg" width="1000" height="590">
+              <span>介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字</span>
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg" width="1000" height="590">
+              <span>介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字</span>
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg" width="1000" height="590">
+              <span>介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字</span>
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg" width="1000" height="590">
+            </li>
+          </div>
+          <div class="subsidiary-item">
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg" width="1000" height="590">
+            </li>
+          </div>
+          <div class="subsidiary-item">
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg" width="1000" height="590">
+            </li>
+          </div>
+          <div class="subsidiary-item">
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg" width="1000" height="590">
+            </li>
+            <li>
+              <img src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg" width="1000" height="590">
+            </li>
+          </div>
+        </div>
       </div>
     </div>
     <aside template="imgTitleBar1">
@@ -437,6 +506,9 @@
         </li>
       </ul>
     </div>
+    <footer>
+      <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</p>
+    </footer>
   </div>
   <!-- 框架script文件 -->
   <script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>

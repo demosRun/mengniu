@@ -87,7 +87,22 @@ a:hover {
 .jCarouselLite{width:540px; }
 .img_a{ position:relative;width:540px;overflow:hidden;}
 .img_a li{width:540px; float:left;position: relative;}
-.img_a span{ display:block;height:50px;line-height:50px; background-color: rgba(0, 0, 0, 0.7);font:normal 18px/50px "\5FAE\8F6F\96C5\9ED1";margin-top:-50px;color:#fff;padding:0 10px; position:relative;bottom:0;left:0; z-index:100; text-align:center;width:100%}
+.img_a span {
+  display:block;
+  height:50px;
+  line-height:50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font:normal 18px/50px "\5FAE\8F6F\96C5\9ED1";
+  margin-top:-50px;
+  color:#fff;
+  padding:0 10px;
+  position:relative;
+  bottom:0;
+  left:0;
+  z-index:100;
+  text-align:center;
+  width:100%
+}
 .img_a span a:link,.img_a span a:visited{color:#fff;}
 .prev{ cursor: pointer; background:url('http://health.people.com.cn/img/MAIN/2014/06/114601/images/left1.png');width:55px;height:55px; position:absolute;top:150px;left:0;z-index:100}
 .next{ cursor: pointer; background:url('http://health.people.com.cn/img/MAIN/2014/06/114601/images/right1.png');width:55px;height:55px;top:150px;right:0;position:absolute; z-index:100}

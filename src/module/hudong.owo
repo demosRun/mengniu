@@ -49,6 +49,45 @@
 </div>
 </template>
 
+<script>
+module.exports = {
+  data: {
+    mySwiper: null
+  },
+  created: function () {
+    this.data.mySwiper = new Swiper('#ueMobile', {
+      autoplay: 2000,
+      loop: true,
+      // 禁用鼠标点击
+      simulateTouch: false,
+      onlyExternal: true,
+      slidesPerView: 1,
+      mode: "vertical",
+      onSlideChangeStart: (swiper) => {
+        this.activeItem(swiper.activeIndex - 1)
+      }
+    })
+    const list = this.query('.ueList li')
+    for (let ind = 0; ind < list.length; ind++) {
+      list[ind].onclick = () => {
+        this.goItem(ind)
+      }
+    }
+  },
+  activeItem: function (ind) {
+    const list = this.query('.ueList li')
+    list.forEach(element => {
+      element.classList.remove('active')
+    })
+    if (list[ind]) list[ind].classList.add('active')
+    else list[0].classList.add('active')
+  },
+  goItem: function (ind) {
+    this.data.mySwiper.swipeTo(ind)
+  }
+}
+</script>
+
 <style lang="less">
 .ueContent{
     width: 1000px;

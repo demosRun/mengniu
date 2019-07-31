@@ -67,6 +67,7 @@ aside[template="imgTitleBar"] {
 [template="showImg"] .main-box {
   width: 1000px;
   height: 590px;
+  position: relative;
   margin-bottom: 40px;
 }
 
@@ -102,6 +103,80 @@ aside[template="imgTitleBar"] {
   margin: 0 auto;
   display: block;
   pointer-events: none;
+}
+
+[template="showImg"] .bar-list {
+  height: 100px;
+  margin: 30px 0;
+  position: relative;
+}
+
+[template="showImg"] .bar-list .bar {
+  height: 35px;
+  float: left;
+  background-repeat: no-repeat;
+  background-image: url('../../static/resource/bar.png');
+  width: 260px;
+  margin: 0 -5px;
+  cursor: pointer;
+}
+
+[template="showImg"] .bar-list .text {
+  position: absolute;
+  font-size: 24px;
+  color: #505050;
+  font-weight: bold;
+  top: 40px;
+  width: 85px;
+  line-height: 30px;
+}
+
+[template="showImg"] .bar-list .text1999 {
+  left: 0;
+}
+
+[template="showImg"] .bar-list .text2004 {
+  left: 216px;
+}
+
+[template="showImg"] .bar-list .text2009 {
+  left: 465px;
+}
+
+[template="showImg"] .bar-list .text2014 {
+  left: 717px;
+}
+
+[template="showImg"] .bar-list .text2019 {
+  left: 930px;
+}
+
+[template="showImg"] .bar-list .active.bar {
+  background-image: url('../../static/resource/bar-active.png');
+}
+
+[template="showImg"] .bar-list .active.text {
+  color: #cc2118;
+}
+
+[template="showImg"] .subsidiary-box {
+  display: none;
+}
+
+[template="showImg"] .subsidiary-list li span {
+  display: none;
+}
+
+[template="showImg"] .info-text {
+  position: absolute;
+  display: block;
+  width: 96%;
+  line-height: 22px;
+  bottom: 0;
+  z-index: 999;
+  color: white;
+  padding: 0 2%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 aside[template="imgTitleBar1"] {
   height: 44px;
@@ -583,4 +658,24 @@ aside[template="imgTitleBar5"] {
 [template="home"] .box-6,
 [template="home"] .box-4 {
   margin-bottom: 140px;
+}
+
+[template="home"] footer p.mt30 {
+  margin-top: 30px;
+  position: relative;
+  line-height: 200%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+[template="home"] footer p.mt30 span#beian {
+  position: absolute;
+  right: 220px;
+  top: 0px;
+}
+
+[template="home"] footer p.mt30 span#kxwz {
+  position: absolute;
+  right: 80px;
+  top: 0px;
 }

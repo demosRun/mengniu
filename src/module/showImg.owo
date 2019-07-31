@@ -3,42 +3,140 @@
   .main-box
     //- 自动生成图片
     img(src="", class="main-image")
+    .info-text
   ul.subsidiary-list.clear
-    li
-      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
-    li
-      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
-    li
-      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
-    li
-      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
-    li
-      img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+    
+  .bar-list.clear
+    .bar(ind="0", :click="changeBar")
+    .bar(ind="1", :click="changeBar")
+    .bar(ind="2", :click="changeBar")
+    .bar(ind="3", :click="changeBar")
+    .text1999.text 1999年
+    .text2004.text 2004年
+    .text2009.text 2009年
+    .text2014.text 2014年
+    .text2019.text 2019年
+  //- 填写区域
+  .subsidiary-box
+    .subsidiary-item
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+    .subsidiary-item
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+    .subsidiary-item
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+    .subsidiary-item
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+      li
+        img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
 </template>
 
 <script>
 module.exports = {
-  data: {
-  },
   created: function () {
-    // 默认显示第一幅图
-    const main = this.query('.main-image')[0]
-    main.src = this.query('.subsidiary-list img')[0].src
-    this.query('.subsidiary-list li')[0].classList.add('active')
-    this.query('li').forEach(element => {
-      element.onclick = (e) => {
-        // 移除其它活跃标签
-        this.query('li').forEach(element => {
-          element.classList.remove('active')
-        })
-        e.target.classList.add('active')
-        if (e.target.src) {
-          main.src = e.target.src
-        } else {
+    // 加载完毕默认高亮第一条
+    this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[0].innerHTML
+    this.query('.bar-list .text')[0].classList.add('active')
+    this.query('.bar-list .bar')[0].classList.add('active')
+    if (this.query('.subsidiary-item')[0].getElementsByTagName('span')[0]) {
+      this.query('.main-box .info-text')[0].innerHTML = this.query('.subsidiary-item')[0].getElementsByTagName('span')[0].innerHTML
+    } else {
+      this.query('.main-box .info-text')[0].innerHTML = ''
+    }
+    setTimeout(() => {
+      // 默认显示第一幅图
+      const main = this.query('.main-image')[0]
+      main.src = this.query('.subsidiary-list img')[0].src
+      this.query('.subsidiary-list li')[0].classList.add('active')
+      this.query('li').forEach(element => {
+        element.onclick = (e) => {
+          // 移除其它活跃标签
+          this.query('li').forEach(element => {
+            element.classList.remove('active')
+          })
+          e.target.classList.add('active')
           main.src = e.target.getElementsByTagName('img')[0].src
+          if (e.target.getElementsByTagName('span')[0]) {
+            this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML
+          } else {
+            this.query('.main-box .info-text')[0].innerHTML = ''
+          }
         }
-      }
+      })
+    }, 0)
+    
+  },
+  changeBar: function () {
+    const main = this.query('.main-image')[0]
+    const text = this.query('.bar-list .text')
+    const bar = this.query('.bar-list .bar')
+    const subsidiary = this.query('.subsidiary-list')
+    // 清除所有高亮
+    text.forEach(element => {
+      element.classList.remove('active')
     })
+    this.query('.bar-list .bar').forEach(element => {
+      element.classList.remove('active')
+    })
+    const index = this.$event.target.getAttribute('ind')
+    // 高亮对应项
+    bar[index].classList.add('active')
+    text[index].classList.add('active')
+    this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[index].innerHTML
+    setTimeout(() => {
+      this.query('li').forEach(element => {
+        element.onclick = (e) => {
+          // 移除其它活跃标签
+          this.query('li').forEach(element => {
+            element.classList.remove('active')
+          })
+          e.target.classList.add('active')
+          main.src = e.target.getElementsByTagName('img')[0].src
+          if (e.target.getElementsByTagName('span')[0]) {
+            this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML
+          } else {
+            this.query('.main-box .info-text')[0].innerHTML = ''
+          }
+        }
+      })
+    }, 0)
+    
   }
 }
 </script>
@@ -47,6 +145,7 @@ module.exports = {
 .main-box {
   width: 1000px;
   height: 590px;
+  position: relative;
   margin-bottom: 40px;
   img, a {
     display: block;
@@ -76,5 +175,66 @@ ul {
       pointer-events: none;
     }
   }
+}
+.bar-list {
+  height: 100px;
+  margin: 30px 0;
+  position: relative;
+  .bar {
+    height: 35px;
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url('@|bar.png|');
+    width: 260px;
+    margin: 0 -5px;
+    cursor: pointer;
+  }
+  .text {
+    position: absolute;
+    font-size: 24px;
+    color: #505050;
+    font-weight: bold;
+    top: 40px;
+    width: 85px;
+    line-height: 30px;
+  }
+  .text1999 {
+    left: 0;
+  }
+  .text2004 {
+    left: 216px;
+  }
+  .text2009 {
+    left: 465px;
+  }
+  .text2014 {
+    left: 717px;
+  }
+  .text2019 {
+    left: 930px;
+  }
+  .active.bar {
+    background-image: url('@|bar-active.png|');
+  }
+  .active.text {
+    color: #cc2118;
+  }
+}
+.subsidiary-box {
+  display: none;
+}
+.subsidiary-list li span {
+  display: none;
+}
+.info-text {
+  position: absolute;
+  display: block;
+  width: 96%;
+  line-height: 22px;
+  bottom: 0;
+  z-index: 999;
+  color: white;
+  padding: 0 2%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 </style>

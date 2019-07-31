@@ -28,6 +28,9 @@
   //- 重温20年
   temple(name="imgTitleBar", imgsrc="@|title-6.png|", src="./src/module/titleBar.owo")
   temple(name="swiper", src="./src/module/swiper.owo")
+  <footer>
+    <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</p>
+  </footer>
 </template>
 
 
@@ -44,5 +47,24 @@
 }
 .box-6, .box-4 {
   margin-bottom: 140px;
+}
+footer p.mt30 {
+	margin-top: 30px;
+	position: relative;
+  line-height: 200%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+footer p.mt30 span#beian {
+	position: absolute;
+	right: 220px;
+	top: 0px
+}
+
+footer p.mt30 span#kxwz {
+	position: absolute;
+	right: 80px;
+	top: 0px
 }
 </style>

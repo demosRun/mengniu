@@ -1,4 +1,4 @@
-// Wed Jul 31 2019 01:29:18 GMT+0800 (GMT+08:00)
+// Wed Jul 31 2019 10:48:56 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -38,26 +38,82 @@ owo.script = {
         "created": function created() {
           var _this = this;
 
-          // 默认显示第一幅图
-          var main = this.query('.main-image')[0];
-          main.src = this.query('.subsidiary-list img')[0].src;
-          this.query('.subsidiary-list li')[0].classList.add('active');
-          this.query('li').forEach(function (element) {
-            element.onclick = function (e) {
-              // 移除其它活跃标签
-              _this.query('li').forEach(function (element) {
-                element.classList.remove('active');
-              });
+          // 加载完毕默认高亮第一条
+          this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[0].innerHTML;
+          this.query('.bar-list .text')[0].classList.add('active');
+          this.query('.bar-list .bar')[0].classList.add('active');
 
-              e.target.classList.add('active');
+          if (this.query('.subsidiary-item')[0].getElementsByTagName('span')[0]) {
+            this.query('.main-box .info-text')[0].innerHTML = this.query('.subsidiary-item')[0].getElementsByTagName('span')[0].innerHTML;
+          } else {
+            this.query('.main-box .info-text')[0].innerHTML = '';
+          }
 
-              if (e.target.src) {
-                main.src = e.target.src;
-              } else {
+          setTimeout(function () {
+            // 默认显示第一幅图
+            var main = _this.query('.main-image')[0];
+
+            main.src = _this.query('.subsidiary-list img')[0].src;
+
+            _this.query('.subsidiary-list li')[0].classList.add('active');
+
+            _this.query('li').forEach(function (element) {
+              element.onclick = function (e) {
+                // 移除其它活跃标签
+                _this.query('li').forEach(function (element) {
+                  element.classList.remove('active');
+                });
+
+                e.target.classList.add('active');
                 main.src = e.target.getElementsByTagName('img')[0].src;
-              }
-            };
+
+                if (e.target.getElementsByTagName('span')[0]) {
+                  _this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML;
+                } else {
+                  _this.query('.main-box .info-text')[0].innerHTML = '';
+                }
+              };
+            });
+          }, 0);
+        },
+        "changeBar": function changeBar() {
+          var _this2 = this;
+
+          var main = this.query('.main-image')[0];
+          var text = this.query('.bar-list .text');
+          var bar = this.query('.bar-list .bar');
+          var subsidiary = this.query('.subsidiary-list'); // 清除所有高亮
+
+          text.forEach(function (element) {
+            element.classList.remove('active');
           });
+          this.query('.bar-list .bar').forEach(function (element) {
+            element.classList.remove('active');
+          });
+          var index = this.$event.target.getAttribute('ind'); // 高亮对应项
+
+          bar[index].classList.add('active');
+          text[index].classList.add('active');
+          this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[index].innerHTML;
+          setTimeout(function () {
+            _this2.query('li').forEach(function (element) {
+              element.onclick = function (e) {
+                // 移除其它活跃标签
+                _this2.query('li').forEach(function (element) {
+                  element.classList.remove('active');
+                });
+
+                e.target.classList.add('active');
+                main.src = e.target.getElementsByTagName('img')[0].src;
+
+                if (e.target.getElementsByTagName('span')[0]) {
+                  _this2.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML;
+                } else {
+                  _this2.query('.main-box .info-text')[0].innerHTML = '';
+                }
+              };
+            });
+          }, 0);
         },
         "prop": {}
       },
@@ -94,6 +150,46 @@ owo.script = {
         }
       },
       "hudong": {
+        "data": {
+          "mySwiper": null
+        },
+        "created": function created() {
+          var _this3 = this;
+
+          this.data.mySwiper = new Swiper('#ueMobile', {
+            autoplay: 2000,
+            loop: true,
+            // 禁用鼠标点击
+            simulateTouch: false,
+            onlyExternal: true,
+            slidesPerView: 1,
+            mode: "vertical",
+            onSlideChangeStart: function onSlideChangeStart(swiper) {
+              _this3.activeItem(swiper.activeIndex - 1);
+            }
+          });
+          var list = this.query('.ueList li');
+
+          var _loop = function _loop(ind) {
+            list[ind].onclick = function () {
+              _this3.goItem(ind);
+            };
+          };
+
+          for (var ind = 0; ind < list.length; ind++) {
+            _loop(ind);
+          }
+        },
+        "activeItem": function activeItem(ind) {
+          var list = this.query('.ueList li');
+          list.forEach(function (element) {
+            element.classList.remove('active');
+          });
+          if (list[ind]) list[ind].classList.add('active');else list[0].classList.add('active');
+        },
+        "goItem": function goItem(ind) {
+          this.data.mySwiper.swipeTo(ind);
+        },
         "prop": {}
       },
       "imgTitleBar3": {
