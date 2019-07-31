@@ -69,6 +69,7 @@ aside[template="imgTitleBar"] {
   height: 590px;
   position: relative;
   margin-bottom: 40px;
+  background-size: 100% 100%;
 }
 
 [template="showImg"] .main-box img,
@@ -88,6 +89,7 @@ aside[template="imgTitleBar"] {
   width: 20%;
   height: 120px;
   cursor: pointer;
+  position: relative;
 }
 
 [template="showImg"] ul li a {
@@ -103,6 +105,17 @@ aside[template="imgTitleBar"] {
   margin: 0 auto;
   display: block;
   pointer-events: none;
+}
+
+[template="showImg"] ul li .info {
+  position: absolute;
+  bottom: 0;
+  width: 86%;
+  margin: 0 5%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0 2%;
+  text-align: center;
 }
 
 [template="showImg"] .bar-list {
@@ -178,6 +191,10 @@ aside[template="imgTitleBar"] {
   padding: 0 2%;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+[template="showImg"] .main-image {
+  transition: opacity 0.5s;
+}
 aside[template="imgTitleBar1"] {
   height: 44px;
   text-align: center;
@@ -213,6 +230,12 @@ aside[template="imgTitleBar1"] {
 }
 
 [template="video"] .swiper-slide {
+  height: 100%;
+}
+
+[template="video"] .swiper-slide a {
+  display: block;
+  width: 100%;
   height: 100%;
 }
 
@@ -291,9 +314,18 @@ aside[template="imgTitleBar2"] {
 
 .ueContent[template="hudong"] .ueList {
   position: absolute;
-  top: 165px;
+  top: 110px;
+  height: 360px;
   width: 295px;
   right: 30px;
+}
+
+.ueContent[template="hudong"] .ueList ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .ueContent[template="hudong"] .ueList ul li {

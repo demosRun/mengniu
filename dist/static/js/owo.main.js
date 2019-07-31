@@ -1,4 +1,4 @@
-// Wed Jul 31 2019 10:52:41 GMT+0800 (GMT+08:00)
+// Thu Aug 01 2019 00:57:35 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -65,7 +65,8 @@ owo.script = {
                 });
 
                 e.target.classList.add('active');
-                main.src = e.target.getElementsByTagName('img')[0].src;
+
+                _this.changeMainImage(e.target.getElementsByTagName('img')[0].src);
 
                 if (e.target.getElementsByTagName('span')[0]) {
                   _this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML;
@@ -94,7 +95,8 @@ owo.script = {
 
           bar[index].classList.add('active');
           text[index].classList.add('active');
-          this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[index].innerHTML;
+          this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[index].innerHTML; // 默认显示第一个
+
           setTimeout(function () {
             _this2.query('li').forEach(function (element) {
               element.onclick = function (e) {
@@ -103,8 +105,7 @@ owo.script = {
                   element.classList.remove('active');
                 });
 
-                e.target.classList.add('active');
-                main.src = e.target.getElementsByTagName('img')[0].src;
+                _this2.changeMainImage(e.target.getElementsByTagName('img')[0].src);
 
                 if (e.target.getElementsByTagName('span')[0]) {
                   _this2.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML;
@@ -112,8 +113,23 @@ owo.script = {
                   _this2.query('.main-box .info-text')[0].innerHTML = '';
                 }
               };
-            });
+            }); // 默认显示第一幅图
+
+
+            setTimeout(function () {
+              _this2.changeMainImage(_this2.query('.subsidiary-list img')[0].src);
+            }, 0);
           }, 0);
+        },
+        "changeMainImage": function changeMainImage(src) {
+          var mainBox = this.query('.main-box')[0];
+          mainBox.style.backgroundImage = "url('".concat(src, "')");
+          var main = this.query('.main-image')[0];
+          main.style.opacity = 0;
+          setTimeout(function () {
+            main.src = src;
+            main.style.opacity = 1;
+          }, 500);
         },
         "prop": {}
       },

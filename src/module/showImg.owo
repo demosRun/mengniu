@@ -21,50 +21,70 @@
     .subsidiary-item
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+        .info 简短的介绍文字
         span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+        .info 简短的介绍文字
         span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+        .info 简短的介绍文字
         span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+        .info 简短的介绍文字
     .subsidiary-item
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+        .info 简短的介绍文字
     .subsidiary-item
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+        .info 简短的介绍文字
     .subsidiary-item
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
+        .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
+        .info 简短的介绍文字
 </template>
 
 <script>
@@ -91,7 +111,7 @@ module.exports = {
             element.classList.remove('active')
           })
           e.target.classList.add('active')
-          main.src = e.target.getElementsByTagName('img')[0].src
+          this.changeMainImage(e.target.getElementsByTagName('img')[0].src)
           if (e.target.getElementsByTagName('span')[0]) {
             this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML
           } else {
@@ -100,7 +120,6 @@ module.exports = {
         }
       })
     }, 0)
-    
   },
   changeBar: function () {
     const main = this.query('.main-image')[0]
@@ -119,6 +138,7 @@ module.exports = {
     bar[index].classList.add('active')
     text[index].classList.add('active')
     this.query('.subsidiary-list')[0].innerHTML = this.query('.subsidiary-box .subsidiary-item')[index].innerHTML
+    // 默认显示第一个
     setTimeout(() => {
       this.query('li').forEach(element => {
         element.onclick = (e) => {
@@ -126,8 +146,7 @@ module.exports = {
           this.query('li').forEach(element => {
             element.classList.remove('active')
           })
-          e.target.classList.add('active')
-          main.src = e.target.getElementsByTagName('img')[0].src
+          this.changeMainImage(e.target.getElementsByTagName('img')[0].src)
           if (e.target.getElementsByTagName('span')[0]) {
             this.query('.main-box .info-text')[0].innerHTML = e.target.getElementsByTagName('span')[0].innerHTML
           } else {
@@ -135,8 +154,23 @@ module.exports = {
           }
         }
       })
+      // 默认显示第一幅图
+      setTimeout(() => {
+        this.changeMainImage(this.query('.subsidiary-list img')[0].src)
+      }, 0)
     }, 0)
     
+  },
+  // 更换主图为某一张图片
+  changeMainImage: function (src) {
+    const mainBox = this.query('.main-box')[0]
+    mainBox.style.backgroundImage = `url('${src}')`
+    const main = this.query('.main-image')[0]
+    main.style.opacity = 0
+    setTimeout(() => {
+      main.src = src
+      main.style.opacity = 1
+    }, 500)
   }
 }
 </script>
@@ -147,6 +181,7 @@ module.exports = {
   height: 590px;
   position: relative;
   margin-bottom: 40px;
+  background-size: 100% 100%;
   img, a {
     display: block;
     width: 100%;
@@ -161,6 +196,7 @@ ul {
     width: 20%;
     height: 120px;
     cursor: pointer;
+    position: relative;
     a {
       display: block;
       width: 100%;
@@ -173,6 +209,16 @@ ul {
       margin: 0 auto;
       display: block;
       pointer-events: none;
+    }
+    .info {
+      position: absolute;
+      bottom: 0;
+      width: 86%;
+      margin: 0 5%;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 0 2%;
+      text-align: center;
     }
   }
 }
@@ -236,5 +282,8 @@ ul {
   color: white;
   padding: 0 2%;
   background-color: rgba(0, 0, 0, 0.6);
+}
+.main-image {
+  transition: opacity 0.5s;
 }
 </style>
