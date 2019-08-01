@@ -1,10 +1,14 @@
 <template>
   <aside>
-    <img height="44" src="{{prop.imgsrc}}">
+    <div class="image-bg">
+      <!-- <img height="44" src="{{prop.imgsrc}}"> -->
+      <span>热点新闻</span>
+    </div>
+    
   </aside>
 </template>
 
-<style>
+<style lang="less">
 aside {
   height: 44px;
   text-align: center;
@@ -16,7 +20,26 @@ aside {
 a, img {
   display: inline-block;
 }
-img {
-  margin-top: -8px;
+.image-bg {
+  width: 680px;
+  height: 86px;
+  margin: 0 auto;
+  margin-top: -16px;
+  background-image: url('@|title.png|');
+  img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 28px;
+    top: 0;
+    margin: auto;
+  }
+  span {
+    font-size: 40px;
+    line-height: 86px;
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
 }
 </style>

@@ -57,6 +57,7 @@
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
         .info 简短的介绍文字
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
         .info 简短的介绍文字
@@ -66,19 +67,23 @@
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
         .info 简短的介绍文字
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732431410923968705.jpg", width="1000", height="590")
         .info 简短的介绍文字
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
     .subsidiary-item
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732441905948993532.jpg", width="1000", height="590")
         .info 简短的介绍文字
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907302311410307536180442.jpg", width="1000", height="590")
         .info 简短的介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301749009701688947255.jpg", width="1000", height="590")
         .info 简短的介绍文字
+        span 介绍<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字<br>这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字这是长段介绍文字
       li
         img(src="http://www.people.com.cn/NMediaFile/2019/0730/MAIN201907301732434943659738345.jpg", width="1000", height="590")
         .info 简短的介绍文字

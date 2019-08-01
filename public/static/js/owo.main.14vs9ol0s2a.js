@@ -1,6 +1,18 @@
-// Thu Aug 01 2019 01:12:35 GMT+0800 (GMT+08:00)
+// Thu Aug 01 2019 09:26:51 GMT+0800 (GMT+08:00)
 
-"use strict";
+
+$(function () {
+  try{
+    $(".jCarouselLite").jCarouselLite({
+      btnNext: ".next01",
+      btnPrev: ".prev01",
+      speed: 1000,
+      auto: 3000,
+      visible:1
+        });
+    } catch(e){}
+})
+
 
 // 存储页面基本信息
 var owo = {
